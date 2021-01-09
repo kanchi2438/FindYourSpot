@@ -2,7 +2,7 @@ mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/outdoors-v11',
-center: [-103.59179687498357, 40.66995747013945],
+center: [77.40862371384621, 23.535333924008786],
 zoom: 3
 });
  
