@@ -1,1 +1,1 @@
-# FindYourSpot
+# Find Your Spot
