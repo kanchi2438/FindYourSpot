@@ -11,9 +11,10 @@
 - run `npm start` in your terminal
 
 ### Tech Stack:
-- Express.js
-- Javascript
 - HTML & CSS
+- Javascript
+- Node.js
+- Express.js
 - MongoDB
 - dialogflow
 
