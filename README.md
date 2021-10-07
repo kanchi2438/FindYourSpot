@@ -1,7 +1,7 @@
 # Find Your Spot
 [Find your spot](https://shielded-plains-40670.herokuapp.com/) is a web application that lets users find inspiring destinations within your reach and allows users to share their experience on registered spots or add new one. 
 
-![homepage]()
+![homepage](https://github.com/kanchi2438/FindYourSpot/blob/master/screenshots/homepage.png)
 
 
 ### Getting Started:
@@ -11,28 +11,60 @@
 - run `npm start` in your terminal
 
 ### Tech Stack:
-- javascript
+- Express.js
+- Javascript
 - HTML & CSS
-- Node
+- MongoDB
+- dialogflow
 
 ### File Structure:
-Follows the default MVC (model view controller) architecture
 ```
-.
+**
+├── app.js
 ├── cloudinary
+│   └── index.js
 ├── controllers
+│   ├── campgrounds.js
+│   ├── reviews.js
+│   └── users.js
+├── middleware.js
 ├── models
+│   ├── campground.js
+│   ├── review.js
+│   └── user.js
 ├── node_modules
 ├── package.json
 ├── public
+│   ├── javascripts
+│   └── stylesheets
 ├── routes
+│   ├── campgrounds.js
+│   ├── reviews.js
+│   └── users.js
 ├── schemas.js
+├── screenshots
+│   ├── explore.png
+│   ├── homepage.png
+│   ├── newspot.png
+│   └── spot.png
 ├── seeds
+│   ├── cities.js
+│   ├── index.js
+│   └── seedHelpers.js
 ├── utils
+│   ├── ExpressError.js
+│   └── catchAsync.js
 └── views
+    ├── campgrounds
+    ├── error.ejs
+    ├── home.ejs
+    ├── layouts
+    ├── partials
+    └── users
+*****************************************************
 ```
 
 ### Screenshots:
-![explore]()
-![spots]()
-![newspot]()
+![explore](https://github.com/kanchi2438/FindYourSpot/blob/master/screenshots/explore.png)
+![spots](https://github.com/kanchi2438/FindYourSpot/blob/master/screenshots/spot.png)
+![newspot](https://github.com/kanchi2438/FindYourSpot/blob/master/screenshots/newspot.png)
